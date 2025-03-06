@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class TransaksiBarang {
+public class TransaksiBarang {
     Scanner input = new Scanner(System.in);
     Barang25[] barang;
     Barang25[] pembelians;
@@ -108,3 +108,4 @@ class TransaksiBarang {
         }
     }
 }
+

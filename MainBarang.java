@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MainBarang {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         Barang25[] dataBarang = new Barang25[5];
@@ -24,7 +24,7 @@ public class MainBarang {
             System.out.println("4. Keluar");
             System.out.print("Pilihan: ");
             pilihanMenu = input.nextInt();
-            input.nextLine(); // Membersihkan buffer
+            input.nextLine(); 
 
             switch (pilihanMenu) {
                 case 1:
@@ -46,7 +46,4 @@ public class MainBarang {
 
         input.close();
     }
-
-
-    }
-        
+}
